@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buton Hareketleri</title>
+</head>
+<body>
+    <button onclick="tıkla()"> A</button>
+    <button onmousemove ="uzerineGelme()"> B </button>
+    <button onmouseout ="uzerindenAyrilma()"> C </button>
+    
+</body>
+<script> 
+    function tıkla(){
+        alert("A butonuna tıkladığınızda")
+        document.body.style.backgroundColor = "yellow";
+
+    }
+    function uzerineGelme(){
+        alert("B butonunun üzerine geldğinizde");
+        document.body.style.backgroundColor= "red";
+
+    }
+
+    function uzerindenAyrilma(){
+        alert("C butonunun üzerinden ayrıldınız");
+        document.body.style.backgroundColor= "blue";
+    }
+
+
+
+
+</script>
+</html>
